@@ -1,24 +1,20 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+import CountDown from './components/Countdown'
 
-function App() {
+const UPDATE_DEADLINE = 'August 18, 2023'
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <div className="App">
+            <header className="App-header">
+                <CountDown targetDate={UPDATE_DEADLINE}>
+                    <div>
+                        <span>Ready today</span></div>
+
+                </CountDown>
+            </header>
+        </div>
+  )
 }
 
-export default App;
+export default App
