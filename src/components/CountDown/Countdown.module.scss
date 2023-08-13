@@ -1,0 +1,56 @@
+@import "src/styles/screen.module";
+
+
+.timer {
+  margin: 0.5rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 5.5rem;
+    padding: 3.5rem;
+
+    > p {
+      margin: 0;
+    }
+
+    //border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #deb887;
+
+    @media screen and (min-width: $tablet-breakpoint) {
+      flex-direction: row;
+      font-size: 7.2rem;
+    }
+
+    .dateTimeClock {
+      padding: 0 0.75rem 0 0.75rem;
+      align-items: center;
+      display: flex;
+
+      flex-direction: column;
+
+      &.danger{
+        color: #ff0000;
+      }
+
+      > p {
+        display: flex;
+        margin: 0 0 0 0;
+      }
+
+      > span {
+        font-size: 1rem;
+        text-transform: uppercase;
+        line-height: 1rem;
+
+      }
+    }
+
+  }
+}
+
