@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import CountDown from './components/CountDown/Countdown'
 
-const UPDATE_DEADLINE = 'August 20, 2023'
+const UPDATE_DEADLINE = 'August 28, 2023'
 const App: React.FC = () => {
   return (
         <div className="App">
