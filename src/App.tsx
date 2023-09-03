@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
         <div className="App">
             <header className="App-header">
-                <h1>Завершуємо розробку 2 вересня!</h1>
+                <h1>Завершуємо розробку 4 вересня, маємо вже усі матеріали!</h1>
                 <CountDown targetDate={UPDATE_DEADLINE}>
                     <div>
                         <span>Запуск сьогодні!!!</span></div>
