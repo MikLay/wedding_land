@@ -1,4 +1,6 @@
-body{
+#root {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #ddcfc5;
 }
 
 .App {

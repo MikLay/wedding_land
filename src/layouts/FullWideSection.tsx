@@ -9,7 +9,7 @@ const FullWideSection: React.FC<FullWideSectionProps> = ({ id }) => {
   return <section id={id} className={`${style.fullWideSection} `}>
       <div className={style.fullScreenImage}>
           <div className={style.overlay}>
-              <div className={style.topText}>Ми чекаємо на вас!</div>
+              <div className={style.topText}>Вони <br/> чекають вас!</div>
               <div className={style.overlayTitle}>
                   <h1>Михайло та Аліна</h1>
               </div>

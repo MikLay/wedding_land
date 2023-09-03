@@ -7,6 +7,7 @@ import SectionTitle from './layouts/SectionTitle'
 // import Carousel from './components/Carousel/Carousel'
 import DefaultHeader from './layouts/DefaultHeader'
 import FullWideSection from './layouts/FullWideSection'
+import DefaultDivider from './layouts/DefaultDivider'
 
 // const UPDATE_DEADLINE = 'August 28, 2023'
 const App: React.FC = () => {
@@ -20,10 +21,19 @@ const App: React.FC = () => {
   return (
         <div className="App">
                 <DefaultLayout
-                    header={<DefaultHeader/>}
+                    headerPrepend={<><FullWideSection id={'full-width-section'} /><DefaultHeader/></>}
+                    header={<DefaultHeader isSticky={true}/>}
                     footer={<div></div>}
                 >
-<FullWideSection id={'full-width-section'} />
+                    <Section id={'where-section'}>
+                        <SectionRow id={'where-section-title'}>
+                                <SectionTitle>
+                                    Коли <span>та</span> Де
+                                </SectionTitle>
+                        </SectionRow>
+                        <div style={{ height: '100px' }}></div>
+                    </Section>
+                   <DefaultDivider/>
                     <Section id={'where-section'}>
                         <SectionRow id={'where-section-title'}>
                             <div>
@@ -32,6 +42,7 @@ const App: React.FC = () => {
                                 </SectionTitle>
                             </div>
                         </SectionRow>
+                        <div style={{ height: '100px' }}></div>
                     </Section>
                 </DefaultLayout>
         </div>
