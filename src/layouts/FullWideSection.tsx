@@ -6,7 +6,7 @@ interface FullWideSectionProps {
 }
 
 const FullWideSection: React.FC<FullWideSectionProps> = ({ id }) => {
-  return <section id={id} className={`${style.fullWideSection} `}>
+  return <section id={id} className={style.fullWideSection}>
       <div className={style.fullScreenImage}>
           <div className={style.overlay}>
               <div className={style.topText}>Вони <br/> чекають вас!</div>

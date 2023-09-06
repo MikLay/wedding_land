@@ -41,6 +41,8 @@
 
       .topText {
         font-family: 'Cormorant SC', serif;
+        font-weight: 400;
+        font-style: italic;
         font-size: 35px;
         max-width: 60%;
       }
@@ -50,6 +52,7 @@
         position: relative;
         display: inline-block;
         text-align: center;
+        font-style: italic;
 
         padding: 1rem 0 1rem 0;
         margin: 1rem 0 1rem 0;
