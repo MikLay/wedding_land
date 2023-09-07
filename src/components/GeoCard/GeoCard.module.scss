@@ -1,0 +1,19 @@
+.mapContainer {
+
+  min-height: 250px;
+
+  .locationPin {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+
+    border: 5px solid #f44336;
+    border-radius: 40px;
+    background-color: white;
+    text-align: center;
+    color: #3f51b5;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px
+  }
+}
