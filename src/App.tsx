@@ -7,10 +7,10 @@ const App: React.FC = () => {
   return (
         <div className="App">
             <header className="App-header">
-                <h1>Завершуємо розробку 5 вересня, маємо вже усі матеріали!</h1>
+                <h1>Наречений завершує вебсайт!</h1>
                 <CountDown targetDate={UPDATE_DEADLINE}>
                     <div>
-                        <span>Запуск сьогодні!!!</span></div>
+                        <span>Майже готово!!!</span></div>
                 </CountDown>
             </header>
         </div>
