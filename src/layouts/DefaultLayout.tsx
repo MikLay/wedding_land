@@ -12,7 +12,7 @@ const DefaultLayout: React.FC<DefaultLayoutProps> = ({ header, children, footer,
   return <div className={`${style.defaultLayout} cover-container d-flex w-100 h-100 mx-auto flex-column`}>
     {headerPrepend ?? null}
    {header}
-    <main>{children}</main>
+    {children}
     <footer>{footer}</footer>
   </div>
 }

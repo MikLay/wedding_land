@@ -1,6 +1,9 @@
 @import "src/styles/screen.module";
 
 .defaultLayout{
+  position: relative;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #ddcfc5;
 
   .defaultDivider{
       width: 100%;
@@ -27,6 +30,8 @@
     position: relative;
 
     .overlay {
+      text-align: center;
+      color: white;
       position: absolute;
       flex-direction: column;
       top: 0;
@@ -92,7 +97,7 @@
 }
 
 .defaultHeader{
-  font-family: 'Pacifico', cursive;
+  font-family: 'Cormorant SC', serif;
   position: absolute;
   margin: auto;
   left: 0;
